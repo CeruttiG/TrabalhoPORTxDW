@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Livro</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        #book-cover {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #reviews {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .review-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Livro Favorito</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Detalhes do Livro</h2>
+            <img id="capaLivro" src="Imagens/capaLivro.jpg" alt="Capa do Livro">
+            <h3>Harry Potter and the Sorcerer's Stone</h3>
+            <p>Autor: J.K. Rowling</p>
+            <p>Descrição: Harry Potter descobre sua herança mágica no seu 11º aniversário quando recebe uma carta de aceitação para a Escola de Magia e Bruxaria de Hogwarts.</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Comentários</h2>
+            <ul>
+                <li class="review-item">Este livro é incrível! Eu não consegui parar de ler desde a primeira página.</li>
+                <li class="review-item">A narrativa é envolvente, e os personagens são muito bem desenvolvidos.</li>
+                <li class="review-item">Recomendo fortemente para fãs de fantasia!</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Meu Livro Favorito</p>
+    </footer>
+
+</body>
+</html>
